@@ -6,13 +6,16 @@ package us.codecraft.tinyioc.beans;
  * @author yihua.huang@dianping.com
  */
 public class BeanDefinition {
-
+	/** 对象实体*/
 	private Object bean;
 
+	/** 该对象的class对象 */
 	private Class beanClass;
 
+	/** 该对象的名称*/
 	private String beanClassName;
 
+	/** 该对象中的字段们 */
 	private PropertyValues propertyValues = new PropertyValues();
 
 	public BeanDefinition() {

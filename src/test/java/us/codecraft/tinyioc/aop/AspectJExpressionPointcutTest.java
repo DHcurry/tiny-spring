@@ -25,6 +25,7 @@ public class AspectJExpressionPointcutTest {
         AspectJExpressionPointcut aspectJExpressionPointcut = new AspectJExpressionPointcut();
         aspectJExpressionPointcut.setExpression(expression);
         boolean matches = aspectJExpressionPointcut.getMethodMatcher().matches(HelloWorldServiceImpl.class.getDeclaredMethod("helloWorld"),HelloWorldServiceImpl.class);
+
         Assert.assertTrue(matches);
     }
 }

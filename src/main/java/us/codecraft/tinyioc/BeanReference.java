@@ -1,6 +1,7 @@
 package us.codecraft.tinyioc;
 
 /**
+ * 存储ref对象
  * @author yihua.huang@dianping.com
  */
 public class BeanReference {
